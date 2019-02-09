@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='alone',
-    version='0.1.2',
+    version='0.1.3',
     author_email='adrien.pierre.horgnies@gmail.com',
     description='Metaclass that defines a class as a singleton',
     long_description=open('README.md').read(),
