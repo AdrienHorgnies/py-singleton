@@ -11,7 +11,7 @@ setuptools.setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/AdrienHorgnies/py-singleton',
-    download_url='https://github.com/AdrienHorgnies/py-singleton/archive/v{version}.tar.gz'.format(version=version),
+    download_url='https://github.com/AdrienHorgnies/py-singleton/archive/{version}.tar.gz'.format(version=version),
     packages=setuptools.find_packages(),
     install_requires=[],
     license='MIT License',
