@@ -15,6 +15,7 @@ deploy:
     skip_cleanup: true
   - provider: releases
     api_key: $github_releases_token
+    skip_cleanup: true
     file:
       - dist/alone-$TRAVIS_BRANCH.tar.gz
       - dist/alone-$TRAVIS_BRANCH-py3-none-any.whl
