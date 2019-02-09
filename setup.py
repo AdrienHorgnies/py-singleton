@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='singletons',
-    version='0.0.11',
+    version='0.1.0',
     author_email='adrien.pierre.horgnies@gmail.com',
     description='Metaclass that defines a class as a singleton',
     long_description=open('README.md').read(),
@@ -12,9 +12,12 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     license='MIT License',
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 2",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
-    ]
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 2',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers'
+    ],
+    keywords=['singleton']
 )
