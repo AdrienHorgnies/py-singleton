@@ -2,7 +2,7 @@ import setuptools
 
 
 setuptools.setup(
-    name='singletons',
+    name='alone',
     version='0.1.0',
     author_email='adrien.pierre.horgnies@gmail.com',
     description='Metaclass that defines a class as a singleton',
