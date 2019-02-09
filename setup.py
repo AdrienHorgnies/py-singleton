@@ -10,6 +10,7 @@ setuptools.setup(
     long_description_content_type='text/markdown',
     url='https://github.com/AdrienHorgnies/py-singleton',
     packages=setuptools.find_packages(),
+    install_requires=[],
     license='MIT License',
     classifiers=[
         'Programming Language :: Python :: 3',
