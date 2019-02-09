@@ -1,4 +1,4 @@
-# py-singleton
+# Alone
 Metaclass that defines a class as a singleton.
 
 [Kudo to theheadofabroom from SO for the implementation][so-post]
@@ -7,16 +7,16 @@ Metaclass that defines a class as a singleton.
 
 Python 2:
 ```python
-import singletons.MetaSingleton
+import alone.MetaSingleton
 
-class YourClass(singletons.MetaSingleton):
+class YourClass(alone.MetaSingleton):
     pass
 ```
 Python 3:
 ```python
-import singletons.MetaSingleton
+import alone.MetaSingleton
 
-class YourClass(metaclass=singletons.MetaSingleton):
+class YourClass(metaclass=alone.MetaSingleton):
     pass
 ```
 
