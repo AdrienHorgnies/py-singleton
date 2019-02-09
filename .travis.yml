@@ -1,6 +1,13 @@
 language: python
 python:
-  - 3.6
+- 3.6
 before_install:
-  - python setup.py install
+- python setup.py install
 script: pytest
+deploy:
+  provider: pypi
+  user: ahorgnies
+  password:
+    secure: wYekju4hJy2VWW5sWd1E1iEm1niDFnh8kFpPiWxtIHvZQQnkVZJ05wLoj7ew9zNr2ExJlGFQ4axx47pjU0l4qSp4s/vYUp00Su//qpePVfWpCGGcMx8QsooZ1B3vL/MSf7/l16eKHtpR17Pb6iUz8oATz/b1HUW9BDiPZTHmAVvjvgaMmqs7dE88LkfDpGIi56S+LwbW4pAvi8KzIGxip1/WCgl7p/02wpIFFwgMIPnwrjXVpgvCQ0cX++HM3ezUX35MEZ8yXwxLbn+D75nd8x+RFmKTqbWo3JPRwcIhz/eVYJAYOQSPLGxf/yZ2XG8BxUeMdbEZ0JaN1yFa4zrmdfNtmqZQDc08T9NRsAcDvBUgrndJPynBtM257Q+q9ETq1e8NGZzNEdA3AXQ8LW4fBV9ro8KbLTnYrKYAhyUP7Yw4P7oH/n+fScgV1TIiMrYPQjjVeBCby8y62eAWXop+4manpG5WnhESGX4V9O/f3baHUDGO8YjmVQZFh93e7t1tzBoQdcnKU4ZWCXRqVUGzMXVOSpsQrWDrLH4D6BuY0HVqiry6q3VfH9PRBhSrAhfaP2Nvq3u3xY9tElEpnnKYptiqRwQSll8eFW5hXq5qNCP/euSnK/DYgcs9jO2gRMAg00kY/F4jsPempuhpU/v82nRtQoxkNbAtKzHmSrCvUYU=
+  on:
+    tags: true
